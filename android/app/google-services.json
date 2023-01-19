@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "644918190649",
+    "project_id": "dobrodel-f84cd",
+    "storage_bucket": "dobrodel-f84cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644918190649:android:fb5cf809be8e9c7b2da3e8",
+        "android_client_info": {
+          "package_name": "com.o2oretail.dobrodelstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644918190649-sd9vrk4kirmgf1ssjdlcpg8bm3etn5oc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrgSpMZJRjZUWBn3Oh_V_MixIakDQSrVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644918190649-sd9vrk4kirmgf1ssjdlcpg8bm3etn5oc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

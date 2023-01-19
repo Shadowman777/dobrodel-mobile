@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Добродел</string>
+    <string name="facebook_app_id">692593941670256</string>
+    <string name="facebook_client_token">d0644feeed92b3dd8d00e2d75a825013</string>
+    <string name="fb_login_protocol_scheme">fb692593941670256</string>
+</resources>

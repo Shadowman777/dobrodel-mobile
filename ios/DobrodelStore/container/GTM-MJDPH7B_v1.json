@@ -1,0 +1,51 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2021-10-24 21:53:48",
+    "containerVersion": {
+        "path": "accounts/6005042935/containers/53249676/versions/1",
+        "accountId": "6005042935",
+        "containerId": "53249676",
+        "containerVersionId": "1",
+        "name": "Empty Container",
+        "container": {
+            "path": "accounts/6005042935/containers/53249676",
+            "accountId": "6005042935",
+            "containerId": "53249676",
+            "name": "Dobrodel app ios",
+            "publicId": "GTM-MJDPH7B",
+            "usageContext": [
+                "IOS_SDK_5"
+            ],
+            "fingerprint": "1634634479032",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6005042935/containers/53249676/workspaces?apiLink=container"
+        },
+        "builtInVariable": [
+            {
+                "accountId": "6005042935",
+                "containerId": "53249676",
+                "type": "APP_ID",
+                "name": "App ID"
+            },
+            {
+                "accountId": "6005042935",
+                "containerId": "53249676",
+                "type": "APP_NAME",
+                "name": "App Name"
+            },
+            {
+                "accountId": "6005042935",
+                "containerId": "53249676",
+                "type": "APP_VERSION_CODE",
+                "name": "App Version Code"
+            },
+            {
+                "accountId": "6005042935",
+                "containerId": "53249676",
+                "type": "EVENT_NAME",
+                "name": "Event Name"
+            }
+        ],
+        "fingerprint": "1634634479036",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6005042935/containers/53249676/versions/1?apiLink=version"
+    }
+}

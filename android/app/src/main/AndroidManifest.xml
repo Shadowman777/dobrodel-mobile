@@ -1,0 +1,61 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.o2oretail.dobrodelstore">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+      android:name=".MainApplication"
+      android:label="@string/app_name"
+      android:icon="@mipmap/ic_launcher"
+      android:allowBackup="false"
+      android:theme="@style/SplashScreenTheme"
+      android:usesCleartextTraffic="true">
+
+      <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id" />
+      <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token" />
+
+        <!-- Enable background dispatching to improve delivery on non-Google Play devices -->
+        <receiver
+          android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+          android:enabled="true"
+          android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+        <service
+          android:name="com.google.android.gms.analytics.AnalyticsService"
+          android:enabled="true"
+          android:exported="true"
+        />
+        <!-- Enable Google Play Store Campaign reports -->
+        <receiver
+          android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+          android:enabled="true"
+          android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <service
+          android:name="com.google.android.gms.analytics.CampaignTrackingService"
+          android:enabled="true"
+          android:exported="true"
+        />
+
+      <activity
+        android:name=".MainActivity"
+        android:label="@string/app_name"
+        android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+        android:launchMode="singleTask"
+        android:windowSoftInputMode="adjustResize"
+        android:screenOrientation="portrait">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+      </activity>
+    </application>
+</manifest>

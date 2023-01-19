@@ -1,0 +1,25 @@
+stages:
+  - build
+
+before_script:
+  - mkdir $HOME/.docker/
+  - echo $DOCKER_AUTH_CONFIG > $HOME/.docker/config.json
+
+services:
+    - docker:dind
+
+build:
+  stage: build
+  image: registry.dobrodel.store/build-app:latest
+  tags: 
+    - dobrodel-mobile
+  script:
+    - apt-get install wget
+    - wget http://mobile:$HTTP_PASS@194.87.214.201:8080/dobrodel.keystore -P ./android/app
+    - cd ./android/app && ls -la
+    - yarn install && yarn build
+  artifacts:
+      paths:
+        - ./android/app/build/outputs/apk/release/app-release.apk
+      expire_in: 1 week
+  when: manual  

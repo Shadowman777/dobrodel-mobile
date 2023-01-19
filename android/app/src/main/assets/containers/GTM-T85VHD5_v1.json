@@ -1,0 +1,57 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2021-10-17 23:54:17",
+    "containerVersion": {
+        "path": "accounts/6005042935/containers/52878815/versions/1",
+        "accountId": "6005042935",
+        "containerId": "52878815",
+        "containerVersionId": "1",
+        "name": "Empty Container",
+        "container": {
+            "path": "accounts/6005042935/containers/52878815",
+            "accountId": "6005042935",
+            "containerId": "52878815",
+            "name": "Dobrodel app android",
+            "publicId": "GTM-T85VHD5",
+            "usageContext": [
+                "ANDROID_SDK_5"
+            ],
+            "fingerprint": "1634038581011",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6005042935/containers/52878815/workspaces?apiLink=container"
+        },
+        "builtInVariable": [
+            {
+                "accountId": "6005042935",
+                "containerId": "52878815",
+                "type": "APP_ID",
+                "name": "App ID"
+            },
+            {
+                "accountId": "6005042935",
+                "containerId": "52878815",
+                "type": "APP_NAME",
+                "name": "App Name"
+            },
+            {
+                "accountId": "6005042935",
+                "containerId": "52878815",
+                "type": "APP_VERSION_CODE",
+                "name": "App Version Code"
+            },
+            {
+                "accountId": "6005042935",
+                "containerId": "52878815",
+                "type": "APP_VERSION_NAME",
+                "name": "App Version Name"
+            },
+            {
+                "accountId": "6005042935",
+                "containerId": "52878815",
+                "type": "EVENT_NAME",
+                "name": "Event Name"
+            }
+        ],
+        "fingerprint": "1634038581015",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6005042935/containers/52878815/versions/1?apiLink=version"
+    }
+}
